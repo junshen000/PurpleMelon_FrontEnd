@@ -1,0 +1,56 @@
+
+
+* {
+    box-sizing: border-box;
+  }
+  .contactContainer{
+    
+   
+    background-image: url("images/home_page_back0.png");
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+
+}
+
+#contact {
+    display: block;
+    color:white;
+    background: #2B0A59;
+    padding: 20px;
+    margin:40px auto;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    max-width: 600px;
+    max-height: 700px;
+    border-radius: 4px; /* Rounded borders */
+}
+  
+input[type=text],select,textarea{
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Full width */
+  padding: 10px; /* Some padding */ 
+  border: 1px solid white; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  margin: 15px auto;
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    color: white;
+}
+.contactButton {
+    background-color: white;
+    color: #2B0A59;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.contactButton:hover {
+    background-color: rgb(254, 251, 203);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    
+}  

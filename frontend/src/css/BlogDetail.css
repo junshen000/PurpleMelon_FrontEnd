@@ -1,0 +1,36 @@
+.each-blog-title{
+    margin-left: auto;
+    margin-right: auto;
+    width: 19.5em;
+    text-transform: uppercase;
+    padding-top: 1em;
+    font-size: 38px;
+    padding-bottom: 0.5em;
+}
+
+
+
+.detail-image{
+  
+    margin-left: auto;
+    margin-right: auto;
+   
+    height: 40%;
+    width: 60%;
+    display: block;
+    object-fit: cover;
+    border-radius: 6px 6px 6px 6px;
+}
+.blog-content{ 
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 47em;
+}
+
+.publish-date{
+    font-weight: 50;
+    padding-left: 15.5em;
+    padding-bottom: 1em;
+    padding-top: 0.3em;
+}
